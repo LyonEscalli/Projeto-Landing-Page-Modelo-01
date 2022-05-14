@@ -2,7 +2,7 @@ Olá!
 
 Este projeto é um modelo de Landing Page simples feito apenas com HTML, CSS e Javascript puro.
 
-Visualização disponível em: savory-wheel.surge.sh
+Visualização disponível em: cumbersome-squirrel.surge.sh
 
 Funcionalidades de interação:
 
