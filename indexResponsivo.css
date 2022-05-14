@@ -1,0 +1,413 @@
+@media screen and (max-device-width : 450px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #containerEsquerdo {
+        box-shadow: 2px 0px 5px 0px #D3D3D3;
+        margin-top: -10%;
+    }
+
+    h1 {
+        font-family: Segoe UI;
+        text-align: center;
+        padding: 10% 0px 0px 5px;
+        background-color: orange;
+        color: white;
+    }
+    
+    #p3 {
+        font-family: Segoe UI;
+        color: #696969;
+        font-size: 24px;
+        margin: 3px 0px 0px 10px;
+    }
+    
+    #p5 {
+        font-family: Segoe UI;
+        color: #696969;
+        font-size: 16px;
+        margin: 03px 0px 0px 10px;
+    }
+    
+    #logoSlaca {
+        height: 200px;
+        width: 200px;
+        padding-left: 20%;
+    }
+    
+    #buttonEsquerdo {
+        color: #696969;
+        font-size: 18px;
+        border-bottom: 1px solid #D3D3D3;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #D3D3D3;
+        text-align: left;
+        background-color: white;
+    }
+    
+    #buttonEsquerdo:hover {
+        color: #696969;
+        background-color: #FFE4C4;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 7%;
+        background-color: #FFE4C4;
+    }
+    
+    #dados {
+        color: #696969;
+        font-size: 16px;
+        font-family: Segoe UI;
+        text-align: center;
+        background-color: #FFE4C4;
+    }
+    
+    #containerLanguage {
+        border: 1px solid #D3D3D3;
+        border-radius: 3px;
+        margin-top: 7%;
+        padding: 4px 5px 4px 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    #globe {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .downloadIcon {
+        height: 20px;
+        width: 20px;
+    }
+    
+    #downloadDiv {
+        display: flex;
+        margin: 10px 5px 10px 5px;
+        align-items: center;
+        background-color: orange;
+        border-radius: 20%;
+        border: none;
+        font-size: 18px;
+    }
+    
+    #downloadDiv:hover {
+        background-color: #BEBEBE;
+    }
+    
+    #containerCentral {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 7%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .downloadStarDoi {
+        display: flex;
+        margin: 10px 10px 10px 10px;
+        align-items: center;
+        background-color: orange;
+        border-radius: 20%;
+        border: none;
+    }
+    
+    .downloadStarDoi:hover {
+        background-color: #BEBEBE;
+    }
+    
+    .textoTitulo {
+        font-size: 24px;
+        font-family: SEGOE UI;
+        color: darkorange;
+        text-align: left;
+    }
+    
+    #textoCitacao {
+        font-size: 18px;
+        font-family: SEGOE UI;
+        color: darkorange;
+        text-align: center;
+    }
+    
+    #textoCitacao:hover {
+        color: #BEBEBE;
+    }
+    
+    #containerIcones {
+        display: flex;
+    }
+    
+    #perfil {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    
+    select {
+        border: none;
+        background-color: transparent;
+    }
+    
+    #containerVideoDetalhes {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    iframe {
+        height: 230px;
+        width: 330px;
+        margin-left: 5px;
+        margin-bottom: 7%;
+    }
+    
+    #containerDetalhes {
+        margin-right: 7%;
+        margin-left: 7%;
+        border: 1px solid #D3D3D3;
+        height: 320px;
+        overflow-y: scroll;
+    }
+    
+    #tituloDetalhes {
+        border: 1px solid #D3D3D3;
+        font-size: 22px;
+        margin-top: -5px;
+        margin-right: -5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        background-color: #FFE4C4;
+    }
+    
+    .textoDetalhes {
+        font-family: SEGOE UI;
+        font-size: 16px;
+        margin-top: -5px;
+        margin-right: -5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+    }
+    
+    #autoresDetalhes {
+        font-family: SEGOE UI;
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: -5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+    }
+    
+    .adendoDetalhes {
+        font-family: SEGOE UI;
+        font-size: 14px;
+        margin-top: -5px;
+        margin-right: -5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        color: #9C9C9C;
+    }
+    
+    #mais {
+        display: none;
+    }
+    
+    #maisRespostas {
+        display: none;
+    }
+    
+    .talkIcon {
+        height: 40px;
+        width: 40px;
+    }
+    
+    #footerIcon {
+        height: 250px;
+        width: 250px;
+        margin-left: 15%;
+    }
+    
+    #containerResumo {
+        border: 1px solid #D3D3D3;
+        padding: 7px 7px 7px 7px;
+        margin: 10px 10px 10px 15px;
+    }
+    
+    #containerDiscussao {
+        border: 1px solid #D3D3D3;
+        padding: 7px 7px 7px 7px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    #resumo {
+        border: 1px solid #D3D3D3;
+        margin-top: -7px;
+        margin-right: -7px;
+        margin-left: -7px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        background-color: #FFE4C4;
+        font-size: 22px;
+    }
+
+    #textoResumo {
+        font-size: 20px;
+    }
+    
+    #discussoes {
+        border: 1px solid #D3D3D3;
+        margin-top: -7px;
+        margin-right: -7px;
+        margin-left: -7px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        background-color: #FFE4C4;
+        font-size: 22px;
+    }
+    
+    #containerDetalhesIdeias {
+        display:grid;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #tituloDiscussoes {
+        font-size: 18px;
+        color: darkorange;
+    }
+    
+    #textoDiscussao {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    #btnLeiamais {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        padding: 5px 5px 5px 5px;
+        background-color: orange;
+        border-radius: 10%;
+        border: none;
+    }
+    
+    #btnLeiamais:hover {
+        background-color: #BEBEBE;
+    }
+    
+    #novoTopico {
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+        padding: 5px 5px 5px 5px;
+        background-color: orange;
+        border-radius: 10%;
+        border: none;
+        font-size: 18px;
+    }
+    
+    #novoTopico:hover {
+        background-color: #BEBEBE;
+    }
+    
+    .perguntaTitulo {
+        color: darkorange;
+        font-size: 20px;
+    }
+    
+    .topicosPergunta {
+        border: 1px solid #D3D3D3;
+        padding: 7px 7px 7px 7px;
+        margin: 5px 5px 5px 10px;
+    }
+
+    .textoRespostasTopicos {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+    
+    .boxImpar {
+        background-color: #D3D3D3;
+    }
+    
+    .boxPar {
+        background-color: white;
+    }
+    
+    .topicoFinal {
+        display: flex;
+        justify-items: flex-start;
+        align-items: center;
+        padding: 5px 10px 5px 10px
+    }
+    
+    .likeIcon {
+        height: 20px;
+        width: 20px;
+        padding-right: 5px;
+    }
+    
+    #btnLeiarespostas {
+        display: flex;
+        align-items: center;
+        margin-left: 7px;
+        padding: 5px 5px 5px 5px;
+        background-color: orange;
+        border-radius: 10%;
+        border: none;
+        font-size: 18px;
+    }
+    
+    #btnLeiarespostas:hover {
+        background-color: #BEBEBE;
+    }
+    
+    #containerFooter {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    .textoFooter {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    #footerButton {
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
+        padding: 5px 5px 5px 5px;
+        background-color: orange;
+        border-radius: 10%;
+        border: none;
+        font-size: 18px;
+    }
+    
+    #footerButton:hover {
+        background-color: #BEBEBE;
+    }
+    
+}
